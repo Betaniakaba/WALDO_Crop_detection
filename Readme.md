@@ -88,6 +88,22 @@ HOW CAN I START WITH WALDO?
 
 Check out the boilerplate code in the repo to run the models and output pretty detections using the wonderful Supervision annotation library from Roboflow :) 
 
+### 🚜 WALDO Crop Detector (Streamlit App)
+
+We have added a user-friendly Streamlit application that implements **sliced inference** (tiling) to detect small objects in high-resolution overhead imagery.
+
+**To run the app:**
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Launch the Streamlit app:
+   ```bash
+   streamlit run app.py
+   ```
+
+The app will automatically handle downloading the latest WALDO v3.0 weights from Hugging Face.
+
 ---------------------------------------------------------------------
 
 GOING DEEPER
